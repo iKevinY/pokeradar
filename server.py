@@ -9,7 +9,7 @@ from pokeradar import Pokeradar
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname).4s] %(message)s')
 
-app = Flask(__name__)
+app = Flask("Pokéradar")
 radar = Pokeradar()
 
 

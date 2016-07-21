@@ -1,4 +1,4 @@
-export FLASK_APP=app.py
+export FLASK_APP=server.py
 
 all: install run
 
