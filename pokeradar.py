@@ -16,7 +16,7 @@ class Pokeradar():
         self.latitude = None
         self.longitude = None
 
-        with open('pokemon.json') as f:
+        with open('data/pokemon.json') as f:
             self.pokemon_names = json.load(f)
 
 
