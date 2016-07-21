@@ -72,7 +72,4 @@ def nearby():
 
         nearby_feed += feed_item.format(time, num, name, distance)
 
-    # Tell PokéSprite to generate sprites
-    nearby_feed += "<script>PkSpr.process_dom()</script>"
-
     return nearby_feed

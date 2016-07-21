@@ -9,7 +9,9 @@ function reloadNearby() {
 
     success: function(data) {
       $("#alert").fadeOut(500, function() {
-        $("#feed").html(data).fadeIn(500);
+        $("#feed").html(data);
+        PkSpr.process_dom();
+        $("#feed").fadeIn(500);
       });
     },
 
