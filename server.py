@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 import logging
@@ -73,3 +74,7 @@ def nearby():
         nearby_feed += feed_item.format(time, num, name, distance)
 
     return nearby_feed
+
+
+if __name__ == '__main__':
+    app.run()
