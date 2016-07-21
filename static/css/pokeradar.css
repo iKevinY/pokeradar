@@ -1,0 +1,58 @@
+/* Based on http://getbootstrap.com/examples/jumbotron-narrow/ */
+
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header, .footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+
+/* Feed style */
+.feed {
+  padding: 15px;
+}
+
+.feed-item {
+  position: relative;
+  padding-bottom: 20px;
+}
+
+.feed-item .time {
+  color: #8c96a3;
+  font-size: 13px;
+}
+
+.feed-item .body {
+  position: relative;
+  left: -10px;
+  top: -5px;
+}
+
+.feed-item .pkspr {
+  padding-top: 5px;
+}
+
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  .header, .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .header {
+    margin-bottom: 30px;
+  }
+}
