@@ -54,6 +54,10 @@ $("#login-form").submit(function(e) {
     type: "POST",
     data: loginData,
     success: function(data) {
+      // Begin locating nearby Pokémon immediately
+      reloadNearby();
+      setInterval(reloadNearby, 30000);
+
       $("#login-alert").html("Success!");
       $("#login-alert").attr("class", "alert alert-success");
       $("#login-alert").show().delay(1000).queue(function() {
@@ -62,9 +66,6 @@ $("#login-form").submit(function(e) {
         $("#alert").html("Locating nearby Pokémon&hellip;");
         $("#alert").attr("class", "alert alert-info");
         $("#alert").fadeIn(500);
-
-        reloadNearby();
-        setInterval(reloadNearby, 30000);
       });
     },
 
