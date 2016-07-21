@@ -2,6 +2,7 @@
 
 Auto-refreshing feed of nearby Pokémon in Pokémon GO.
 
+![Pokéradar Screenshot](screenshot.png?raw=true)
 
 ## License
 
