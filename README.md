@@ -5,6 +5,11 @@ Auto-refreshing feed of nearby Pokémon in Pokémon GO.
 <img src="https://raw.githubusercontent.com/iKevinY/pokeradar/master/screenshot.png" height="600">
 
 
+## Rationale
+
+For several days now, Pokémon GO's "nearby tracker" has not been broken; all Pokémon are reported to be 3 footsteps away, regardless of where they are actually located. Around this time, the game's API had been reverse engineered, resulting in projects like `pgoapi`. While I personally feel like "mapping applications" detract from the spirit of the game, it was annoying that the nearby indicator was virtually useless. Because of this, I decided to write Pokéradar.
+
+
 ## Installation
 
 ```sh
