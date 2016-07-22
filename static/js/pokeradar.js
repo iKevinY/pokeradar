@@ -56,7 +56,7 @@ $("#login-form").submit(function(e) {
     success: function(data) {
       // Begin locating nearby Pokémon immediately
       reloadNearby();
-      setInterval(reloadNearby, 30000);
+      setInterval(reloadNearby, 5000);
 
       $("#login-alert").html("Success!");
       $("#login-alert").attr("class", "alert alert-success");
