@@ -2,8 +2,6 @@
 
 Auto-refreshing feed of nearby Pokémon in Pokémon GO.
 
-<img src="https://raw.githubusercontent.com/iKevinY/pokeradar/master/screenshot.png" height="600">
-
 
 ## Rationale
 
@@ -17,9 +15,12 @@ $ make install
 ```
 
 
+<img src="https://raw.githubusercontent.com/iKevinY/pokeradar/master/screenshot.png" height="600" align="right">
+
+
 ## Usage
 
-**Third-party tools are not officially supported by Pokémon GO. Run this at your own risk.**
+**All API access is unofficial. Run at your own risk.**
 
 ```sh
 $ make run
@@ -28,8 +29,8 @@ $ make run
 
 ## Credits
 
-- [pgoapi](https://github.com/tejado/pgoapi) for providing a wrapper around Pokémon GO's API.
-- [PokéSprite](https://github.com/msikma/pokesprite) for convenient Pokémon sprites.
+- [pgoapi](https://github.com/tejado/pgoapi) for making this project possible.
+- [PokéSprite](https://github.com/msikma/pokesprite) for easy-to-use sprites.
 
 ## License
 
