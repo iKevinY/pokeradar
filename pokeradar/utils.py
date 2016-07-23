@@ -26,7 +26,7 @@ def get_key_from_pokemon(pokemon):
 
 def find_nearby_pokemon(api, lat, lng):
     step_size = 0.0015
-    step_limit = 10  # default: 49
+    step_limit = 9
     coords = generate_spiral(lat, lng, step_size, step_limit)
 
     origin = Point(lat, lng)
@@ -84,7 +84,7 @@ def encode(cellid):
 
 def generate_spiral(starting_lat, starting_lng, step_size, step_limit):
     coords = [{'lat': starting_lat, 'lng': starting_lng}]
-    steps,x,y,d,m = 1, 0, 0, 1, 1
+    steps, x, y, d, m = 1, 0, 0, 1, 1
     rlow = 0.0
     rhigh = 0.0005
 
