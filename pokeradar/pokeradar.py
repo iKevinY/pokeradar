@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+import os
 import json
 
 from apscheduler.schedulers.background import BackgroundScheduler
@@ -16,7 +17,7 @@ class Pokeradar():
         self.latitude = None
         self.longitude = None
 
-        with open('data/pokemon.json') as f:
+        with open(os.path.join(os.path.dirname(__file__), 'data/pokemon.json')) as f:
             self.pokemon_names = json.load(f)
 
 

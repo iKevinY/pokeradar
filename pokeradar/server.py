@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+import os
 import logging
 
 from flask import Flask, render_template, request
@@ -11,6 +12,8 @@ from pokeradar import Pokeradar
 logging.basicConfig(level=logging.INFO, format='%(asctime)s [%(levelname).4s] %(message)s')
 
 app = Flask("Pokéradar")
+app.root_path = os.path.dirname(__file__)
+
 radar = Pokeradar()
 
 

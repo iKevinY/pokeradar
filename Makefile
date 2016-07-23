@@ -1,4 +1,4 @@
-export FLASK_APP=server.py
+export FLASK_APP=pokeradar/server.py
 
 all: install run
 
@@ -8,7 +8,7 @@ debug:
 
 install:
 	@pip install -r requirements.txt
-	@pip install -r pgoapi/requirements.txt
+	@pip install -r pokeradar/pgoapi/requirements.txt
 
 run:
 	@flask run --host=0.0.0.0

@@ -14,7 +14,8 @@ from google.protobuf.internal import encoder
 from s2sphere import CellId, LatLng
 
 # Add pgoapi submodule to path to allow for it to be imported
-sys.path.append(os.path.dirname(__name__) + 'pgoapi')
+base_path = os.path.dirname(__file__)
+sys.path.append(os.path.join(base_path, 'pgoapi'))
 from pgoapi import PGoApi
 from pgoapi.utilities import f2i
 

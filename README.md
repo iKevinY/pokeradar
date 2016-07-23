@@ -10,7 +10,7 @@ $ make install
 ```
 
 
-<img src="https://raw.githubusercontent.com/iKevinY/pokeradar/master/screenshot.png" height="600" align="right">
+<img src="https://raw.githubusercontent.com/iKevinY/pokeradar/master/pokeradar.png" height="600" align="right">
 
 
 ## Usage
