@@ -2,6 +2,8 @@
 
 About a week after Pokémon GO's release, the game's "nearby tracker" stopped working properly; all Pokémon were reported as being 3 footsteps away, regardless of where they were actually located. Around this time, the game's API had been reverse engineered. While I personally feel that the new "mapping applications" detract from the spirit of the game, it was annoying that the nearby indicator was virtually useless. Because of this, I decided to write Pokéradar.
 
+As of August 2016, the third-party API access that Pokéradar relied on has been patched.
+
 
 ## Installation
 
